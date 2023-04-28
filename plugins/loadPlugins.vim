@@ -1,4 +1,5 @@
-" Plugins
+" Install all Plugins Plugins
+" Plug control - single file 
 call plug#begin()
   " Dark cool There for Vim
   Plug 'tomasiser/vim-code-dark'

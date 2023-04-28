@@ -32,7 +32,7 @@ let &showbreak="\u21aa " " Show a left arrow when wrapping text
 set encoding=utf-8  " The encoding displayed.
 set fileencoding=utf-8  " The encoding written to file.
 set synmaxcol=300 " Don't try to highlight long lines
-set guioptions-=T " Don't show toolbar in Gvim
+"set guioptions-=T " Don't show toolbar in Gvim
 set iskeyword+=\- " Complete words containing a dash
 set title
 set shortmess+=c
@@ -49,7 +49,8 @@ source ~/.vim/plugins/coc.vim
 source ~/.vim/plugins/wiki.vim
 source ~/.vim/plugins/bookmarks.vim
 source ~/.vim/plugins/theme.vim
-source ~/.vim/plugins/prettier.vim
+source ~/.vim/plugins/fzf.vim
+source ~/.vim/plugins/pad.vim
 " Vim configs
 source ~/.vim/configs/functions.vim
 source ~/.vim/configs/syntaxColors.vim

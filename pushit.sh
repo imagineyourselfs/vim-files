@@ -1,6 +1,4 @@
 #!/bin/bash
-# IF you are using another domain to push your code... 
-
 pkill -x ssh-agent 
 sleep 1
 echo "ssh-agents killed"

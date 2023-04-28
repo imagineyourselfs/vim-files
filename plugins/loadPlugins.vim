@@ -32,6 +32,16 @@ call plug#begin()
   Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
   " chavetas 
   Plug 'wellle/targets.vim'
+  " grep for vim 
+  Plug 'mhinz/vim-grepper'
+  " show tree 
+  Plug 'mhinz/vim-tree'
+  " sayonara
+  Plug 'mhinz/vim-sayonara', { 'on': 'Sayonara' }
+  " Read RFC's 
+  Plug 'mhinz/vim-rfc'
+  " fuGITive 
+  Plug 'tpope/vim-fugitive'
   " AutoFix AutoComplete and More
   Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
   Plug 'neoclide/coc.nvim', {'branch': 'release'}

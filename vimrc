@@ -51,6 +51,7 @@ source ~/.vim/plugins/bookmarks.vim
 source ~/.vim/plugins/theme.vim
 source ~/.vim/plugins/fzf.vim
 source ~/.vim/plugins/pad.vim
+source ~/.vim/plugins/http.vim
 " Vim configs
 source ~/.vim/configs/functions.vim
 source ~/.vim/configs/syntaxColors.vim

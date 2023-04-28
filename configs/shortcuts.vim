@@ -54,3 +54,5 @@ call CreateShortcut("A-Right", "gt", "inv")
 
 " Alt Left - Previous tab
 call CreateShortcut("A-Left", "gT", "inv")
+
+" Add more here 

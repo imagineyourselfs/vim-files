@@ -1,4 +1,4 @@
-"""" Explorer 
+" Explorer 
 let g:netrw_banner=0 " Hide banner
 let g:netrw_list_hide='\(^\|\s\s\)\zs\.\S\+' " Hide hidden files
 autocmd FileType netrw call KeysInNetrw()
@@ -13,7 +13,7 @@ function! KeysInNetrw()
 endfunction
 function! OpenNetrw()
   if TabIsEmpty() == 1
-    Vexplore
+    Texplore
   else
     Sexplore
   endif

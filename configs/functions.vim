@@ -1,4 +1,5 @@
 " Helper functions
+" load this script before all others that need them
 function! CreateShortcut(keys, cmd, where, ...)
   let keys = "<" . a:keys . ">"
   if a:where =~ "i"

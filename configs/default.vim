@@ -1,4 +1,4 @@
-
+" default settings 
 function! ReadOnly()
   return (&readonly || !&modifiable) ? 'Read Only ' : ''
 endfunction

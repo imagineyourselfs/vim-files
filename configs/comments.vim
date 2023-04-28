@@ -1,4 +1,4 @@
-"""  Block Commenter Helper
+"  Block Commenter Helpers
 autocmd FileType c,cpp,java,go      let b:comment_leader = '\/\/'
 autocmd FileType javascript         let b:comment_leader = '\/\/'
 autocmd FileType arduino            let b:comment_leader = '\/\/'

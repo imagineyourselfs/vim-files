@@ -1,4 +1,5 @@
 " don't show full path in tabs name
+" Cool 
 if exists("+showtabline")
   function MyTabLine()
     let s = ''

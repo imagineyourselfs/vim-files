@@ -1,4 +1,4 @@
-""" Custom backup and swap files
+" backup and swap files
 let myVimDir = expand("$HOME/.vim")
 let myBackupDir = myVimDir . '/backup'
 let mySwapDir = myVimDir . '/swap'

@@ -25,9 +25,6 @@ call plug#begin()
   Plug 'wellle/context.vim'
   " Buffers Explorer
   Plug 'jlanzarotta/bufexplorer'
-  " create http request from vim
-  " Install jsbin
-  Plug 'nicwest/vim-http'
   " chavetas
   Plug 'wellle/targets.vim'
   " grep for vim
